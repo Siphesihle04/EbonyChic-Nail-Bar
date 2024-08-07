@@ -1,0 +1,28 @@
+[debug] [2024-08-07T12:27:47.925Z] ----------------------------------------------------------------------
+[debug] [2024-08-07T12:27:47.930Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jab5\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-07T12:27:47.930Z] CLI Version:   13.15.0
+[debug] [2024-08-07T12:27:47.930Z] Platform:      win32
+[debug] [2024-08-07T12:27:47.930Z] Node Version:  v20.15.1
+[debug] [2024-08-07T12:27:47.931Z] Time:          Wed Aug 07 2024 14:27:47 GMT+0200 (South Africa Standard Time)
+[debug] [2024-08-07T12:27:47.931Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-07T12:27:47.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-07T12:27:47.942Z] > authorizing via signed-in user (simphiwegule44@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jab5\Desktop\EbonyChic-Nail-Bar
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
