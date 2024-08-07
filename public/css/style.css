@@ -608,28 +608,33 @@ ul.social_icon li a:hover {
 }
 
 .pricing_box_ti h3 {
-     font-size: 40px;
+     font-size: 20px;
      font-weight: bold;
      padding-bottom: 5px;
 }
 
 .pricing_box_ti h3::before {
-     position: absolute;
+    /* position: absolute;
      content: "";
      background-color: #ddd;
      width: 84px;
      height: 4px;
      border-radius: 5px;
-     bottom: 0;
+     bottom: 0;8*/
 }
 
 .pricing_box_ti h3 span {
-     color: #7321cd;
+     color: #851394;
+     
+     
 }
 
 .pricing_box_ti h3 strong {
      font-size: 15px;
      font-weight: normal;
+     
+     
+
 }
 
 .our_pricing {
@@ -642,9 +647,11 @@ ul.social_icon li a:hover {
      font-weight: bold;
      line-height: 25px;
      padding-bottom: 20px;
-     color: #2e2d2d;
+     /**color: #2e2d2d;**/
+     color: #851394;
      padding-top: 30px;
      display: block;
+     
 }
 
 .our_pricing p {
