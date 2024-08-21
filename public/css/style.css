@@ -29,6 +29,16 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+/*--------------------------------------------------------------------- color variables ---------------------------------------------------------------------*/
+
+:root {
+     --color1: #d194af;
+     --color2: #b76b99;
+     --color3: #dea8d1;
+     --color4: #bdb2ca;
+     --color5: #a75978;
+}
+
 * {
      box-sizing: border-box !important;
 }
@@ -43,6 +53,11 @@ html {
 
 body {
      color: #666666;
+     /* background-image: url(../images/Sparkling\ ✨.jpg);
+     background-position: center;
+     background-size: cover; */
+     background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
+     
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -342,7 +357,7 @@ ul.social_icon li a:hover {
 .banner_main::before {
      position: absolute;
      content: "";
-     background-color: #2e2d2d;
+     background-color: purple;
      width: 370px;
      height: 764px;
      left: 0;
@@ -376,7 +391,7 @@ ul.social_icon li a:hover {
 }
 
 .get_btn {
-     background-color: #2e2d2d;
+     background-color: #f7eded;
      color: #fff;
      text-align: center;
      max-width: 216px;
@@ -483,8 +498,13 @@ ul.social_icon li a:hover {
 
 .we_do {
      padding-top: 90px;
+     margin-top: 0;
+     /* background-image: url(../images/Sparkling\ ✨.jpg);
+     background-position: center;
+     background-size: cover; */
      padding-bottom: 147px;
-     background-color: #fff;
+     /* background-color: var(--color5); */
+     background: repeating-radial-gradient(var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
      position: relative;
 }
 
@@ -533,7 +553,8 @@ ul.social_icon li a:hover {
 /** end team section **/
 
 .about {
-     background-color: #fff;
+     /* background-color: #fff; */
+     background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
      padding-top: 90px;
      position: relative;
      padding-bottom: 170px;
@@ -588,7 +609,8 @@ ul.social_icon li a:hover {
 /** our pricing section **/
 
 .pricing {
-     background-color: #fff;
+     /* background-color: #fff; */
+     background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
      padding: 90px 0 170px 0;
      position: relative;
 }
@@ -677,7 +699,8 @@ ul.social_icon li a:hover {
 /** Experts section **/
 
 .experts {
-     background-color: #fff;
+     /* background-color: #fff; */
+     background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color3),var(--color4),var(--color5));
      padding: 90px 0 147px 0;
      position: relative;
 }
@@ -753,7 +776,8 @@ ul.social_icon li a:hover {
 /** contact section **/
 
 .contact {
-     background: #fff;
+     /* background: #fff; */
+     background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
      margin-top: 90px;
      position: relative;
 }
