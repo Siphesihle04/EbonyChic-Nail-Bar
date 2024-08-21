@@ -523,6 +523,7 @@ ul.social_icon li a:hover {
 .we_box {
      text-align: center;
      margin-bottom: 30px;
+     align-items: center;
 }
 
 .we_box i {
