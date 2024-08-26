@@ -321,7 +321,7 @@ button {
      background-color: #2e2d2d;
 }
 
-.navbar-expand-md .navbar-nav {
+.navbar-and-md .navbar-nav {
      padding-right: 10px;
 }
 
@@ -610,8 +610,8 @@ ul.social_icon li a:hover {
 
 .pricing {
      /* background-color: #fff; */
-     /* background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5)); */
-     background: repeating-radial-gradient(circle, var(--color1), var(--color2) 30px, var(--color3) 60px);
+      background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5)); 
+     /* background: repeating-radial-gradient(circle, var(--color1), var(--color2) 30px, var(--color3) 60px); */
      padding: 90px 0 170px 0;
      position: relative;
 }
