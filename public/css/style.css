@@ -283,7 +283,8 @@ button {
 .logo::before {
      position: absolute;
      content: "";
-     background-color: #2e2d2d;
+     /* background-color: #2e2d2d; */
+     background: repeating-linear-gradient(45deg, var(--color1), var(--color2) 50px);
      width: 385px;
      height: 86px;
      left: -75px;
@@ -357,9 +358,9 @@ ul.social_icon li a:hover {
 .banner_main::before {
      position: absolute;
      content: "";
-     background-color: purple;
+     background-color: #2e2d2d;
      width: 370px;
-     height: 764px;
+     height: 744px;
      left: 0;
 }
 
@@ -391,7 +392,7 @@ ul.social_icon li a:hover {
 }
 
 .get_btn {
-     background-color: #f7eded;
+     background-color: #2e2d2d;
      color: #fff;
      text-align: center;
      max-width: 216px;
@@ -498,7 +499,6 @@ ul.social_icon li a:hover {
 
 .we_do {
      padding-top: 90px;
-     margin-top: 0;
      /* background-image: url(../images/Sparkling\ ✨.jpg);
      background-position: center;
      background-size: cover; */
@@ -523,7 +523,6 @@ ul.social_icon li a:hover {
 .we_box {
      text-align: center;
      margin-bottom: 30px;
-     align-items: center;
 }
 
 .we_box i {
@@ -611,7 +610,8 @@ ul.social_icon li a:hover {
 
 .pricing {
      /* background-color: #fff; */
-     background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
+     /* background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5)); */
+     background: repeating-radial-gradient(circle, var(--color1), var(--color2) 30px, var(--color3) 60px);
      padding: 90px 0 170px 0;
      position: relative;
 }
@@ -637,37 +637,31 @@ ul.social_icon li a:hover {
 }
 
 .pricing_box_ti h3::before {
-    /* position: absolute;
+     position: absolute;
      content: "";
      background-color: #ddd;
      width: 84px;
      height: 4px;
      border-radius: 5px;
-     bottom: 0;8*/
+     bottom: 0;
 }
 
 .pricing_box_ti h3 span {
-     color: #851394;
-     
-     
+     color: #851394;     
 }
 
 .pricing_box_ti h3 strong {
      font-size: 15px;
      font-weight: normal;
-     
-     
-
 }
 
 .our_pricing {
-     text-align: centre;
-
+     text-align: center;
 }
 
 .our_pricing span {
      text-transform: uppercase;
-     font-size: 20px;
+     font-size: 25px;
      font-weight: bold;
      line-height: 25px;
      padding-bottom: 20px;
