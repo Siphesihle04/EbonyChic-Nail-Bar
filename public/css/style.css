@@ -770,6 +770,7 @@ ul.social_icon li a:hover {
 
 /** contact section **/
 
+
 .contact {
      /* background: #fff; */
      background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
@@ -998,7 +999,12 @@ ul.link_menu li a:hover {
 .copyright a:hover {
      color: #fa8c17;
 }
-
+.col-md-2  {
+     margin-left: 150px;
+}
+.nail {
+     margin-left: 150px;
+}
 
 /** end footer **/
 
