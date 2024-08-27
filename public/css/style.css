@@ -737,7 +737,8 @@ ul.social_icon li a:hover {
 
 .experts .experts_box .meet {
      padding: 33px 30px;
-     text-align: center;
+     /* text-align: center; */
+     text-align:left; 
 }
 
 .experts .experts_box .meet h3 {
