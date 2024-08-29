@@ -278,13 +278,18 @@ button {
 .logo a img {
      z-index: 9999;
      position: relative;
+     top: -50px;
+     left: 0;
+     height: 140px;
+     width: auto;
 }
 
 .logo::before {
      position: absolute;
      content: "";
      /* background-color: #2e2d2d; */
-     background: repeating-linear-gradient(45deg, var(--color1), var(--color2) 50px);
+     /* background: repeating-linear-gradient(45deg, var(--color1), var(--color2) 50px); */
+     background-color: #000;
      width: 385px;
      height: 86px;
      left: -75px;
@@ -410,6 +415,9 @@ ul.social_icon li a:hover {
 .bann_img {
      padding-left: 59px;
      padding-right: 20px;
+     height: 650px;
+     width: 650px;
+     object-fit: cover;
 }
 
 #myCarousel .carousel-control-prev,
@@ -456,6 +464,7 @@ ul.social_icon li a:hover {
 
 .titlepage {
      text-align: center;
+     padding-top: 120px;
      padding-bottom: 40px;
 }
 
@@ -498,6 +507,7 @@ ul.social_icon li a:hover {
 /** What We Do section **/
 
 .we_do {
+     margin-top: -60px;
      padding-top: 90px;
      /* background-image: url(../images/Sparkling\ ✨.jpg);
      background-position: center;
@@ -535,6 +545,16 @@ ul.social_icon li a:hover {
      align-items: center;
      flex-wrap: wrap;
      margin: 0 auto;
+}
+
+.we_box img {
+     border-radius: 50%;
+     box-shadow: var(--color5) 5px 5px 5px 5px;
+     object-fit: cover;
+}
+
+.we_box img:hover {
+     box-shadow: none;
 }
 
 .we_box h3 {
@@ -624,6 +644,7 @@ ul.social_icon li a:hover {
 .pricing_box {
      border: #727272 solid 1px;
      padding: 74px 101px 80px 101px;
+     height: 37.5rem;
 }
 
 .pricing_box_ti {
@@ -775,7 +796,7 @@ ul.social_icon li a:hover {
 .contact {
      /* background: #fff; */
      background: repeating-radial-gradient(var(--color1),var(--color2),var(--color3),var(--color4),var(--color5));
-     margin-top: 
+     margin-top: 0;
      position: relative;
 }
 
@@ -999,6 +1020,9 @@ ul.link_menu li a:hover {
 
 .copyright a:hover {
      color: #fa8c17;
+}
+.icons {
+     margin-left: -10px !important;
 }
 .col-md-2  {
      margin-left: 150px;
